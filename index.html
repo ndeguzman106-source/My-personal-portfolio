@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | [NATHANIEL]</title>
+    <style>
+        /* Design Requirements: 2-3 main colors, clean layout, readable fonts */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        /* Section 1: Profile Styles */
+        .profile-header {
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 192px; /* Approx 2x2 ratio */
+            height: 192px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 3px solid #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px 0;
+            color: #2c3e50;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        /* Section 3: Personal Details Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .label {
+            font-weight: bold;
+            background-color: #f9f9f9;
+            width: 30%;
+        }
+
+        /* Section 4: Skills */
+        .skills-list {
+            list-style-type: square;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #2c3e50;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="profile-header">
+            <section>
+                <img src="N.jpg" alt="Your 2x2 Picture" class="profile-img">
+                <h1>Nathaniel L De Guzman</h1>
+                <p class="subtitle"> Web Developer</p>
+            </section>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am currently a student at <strong>Our Layd of Sacred Heart College</strong> taking up 
+                <strong> BS in Information Technology</strong>. 
+                My interest in technology stems from Solving complex problems and the ever-evolving nature of software development.
+            </p>
+        </section>
+
+        <section>
+            <h2>Personal Details</h2>
+            <table>
+                <tr>
+                    <td class="label">Full Name</td>
+                    <td>Nathaniel De Guzman</td>
+                </tr>
+                <tr>
+                    <td class="label">Age</td>
+                    <td>21 year old</td>
+                </tr>
+                <tr>
+                    <td class="label">Email Address</td>
+                    <td>Ndeguzman105@email.com</td>
+                </tr>
+                <tr>
+                    <td class="label">Address</td>
+                    <td>Macapabellag,Guimba,N.E</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Skills & Programming Languages</h2>
+            <ul class="skills-list">
+                <li><strong>HTML</strong> - Intermediate</li>
+                <li><strong>CSS</strong> - Beginner</li>
+                <li><strong>JavaScript</strong> - Beginner</li>
+                </ul>
+        </section>
+
+        <section>
+            <h2>Inspiration</h2>
+            <p>
+                I chose the IT field because I am passionate about how technology can solve real-world problems and make everyday life easier. Coding inspires me to create innovative solutions that help people and contribute to shaping the future of our digital world."
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
